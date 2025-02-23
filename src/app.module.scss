@@ -1,0 +1,29 @@
+.wrapper {
+  border-left: 1px solid #e1e4eb;
+  border-right: 1px solid #e1e4eb;
+  width: 100%;
+  min-height: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.vertical__line {
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 1px;
+  background: #e1e4eb;
+  height: 100%;
+  position: absolute;
+}
+
+@media screen and (max-width: 1024px) {
+  .vertical__line {
+    display: none;
+  }
+
+  .wrapper {
+    border: none;
+  }
+}

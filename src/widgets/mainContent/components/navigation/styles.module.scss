@@ -1,0 +1,74 @@
+.navigation {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+  width: fit-content;
+}
+
+.counter {
+  font-size: 14px;
+  color: #42567A;
+}
+
+.buttons__container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+  z-index: 10;
+  width: fit-content;
+}
+
+.buttons {
+  display: flex;
+  gap: 16px;
+}
+
+.buttons button {
+  width: 50px;
+  height: 50px;
+  font-size: 16px;
+  border-radius: 50%;
+  border: 1px solid #303E5880;
+  background: #f2f3f7;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.period__navigation {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.period__button {
+  width: 6px;
+  height: 6px;
+  background: #acb4c5;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.period__button:disabled {
+  background: #425679;
+}
+
+@media screen and (max-width: 1024px){
+  .navigation {
+    width: 100%;
+  }
+
+  .buttons button {
+    width: 24px;
+    height: 24px;
+  }
+}

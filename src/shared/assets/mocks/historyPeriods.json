@@ -1,0 +1,68 @@
+[
+  {
+    "title": "История",
+    "period": {
+      "from": 1900,
+      "to": 1915
+    },
+    "events": [
+      {
+        "year": 1901,
+        "description": "13 сентября — частное солнечное затмение, видимое в Южной Африке и части Антарктиды"
+      },
+      {
+        "year": 1902,
+        "description": "Some historicaasdasdl events"
+      },
+      {
+        "year": 1903,
+        "description": "Some historical events"
+      },
+      {
+        "year": 1904,
+        "description": "Some historical events"
+      },
+      {
+        "year": 1905,
+        "description": "Some historical events"
+      },
+      {
+        "year": 1906,
+        "description": "Some historical events"
+      }
+    ]
+  },
+  {
+    "title": "Технологии",
+    "period": {
+      "from": 1916,
+      "to": 1930
+    },
+    "events": [
+      {
+        "year": 1901,
+        "description": "13 сентября — частное солнечное затмение, видимое в Южной Африке и части Антарктиды"
+      },
+      {
+        "year": 1902,
+        "description": "Some historical events"
+      },
+      {
+        "year": 1903,
+        "description": "Some historical events"
+      },
+      {
+        "year": 1904,
+        "description": "Some historical events"
+      },
+      {
+        "year": 1905,
+        "description": "Some historical events"
+      },
+      {
+        "year": 1906,
+        "description": "Some historical events"
+      }
+    ]
+  }
+]
